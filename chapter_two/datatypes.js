@@ -25,13 +25,22 @@
 // ****** String ****** 
 
 // literal string
-var str = '123';
-var str2 = "String";
-var str5 = `String`;
+// var str = '123';
+// var str2 = "String";
+// var str5 = `String`;
 
 // constructor string
-var str6 = String(3.54);
-var str3 = String("aliashraf");
-var str4 = String(25);
+// var str6 = String(3.54);
+// var str3 = String("aliashraf");
+// var str4 = String(25);
 
-console.log(str3, str5, str6)
+// console.log(str3, str5, str6)
+
+// ****** Boolean ****** 
+var b1 = true;
+var b2 = false;
+
+var b3 = Boolean(true);
+var b4 = Boolean(false);
+console.log(b3, b4);
+
