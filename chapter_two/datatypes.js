@@ -51,4 +51,9 @@ var xyz = null;
 console.log(xyz);
 console.log(abc);
 
+var hex = 0xff
+console.log(hex);
+var oct = 0755;
+console.log(oct);
+
 
