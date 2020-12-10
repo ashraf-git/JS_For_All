@@ -10,7 +10,8 @@ console.log('But his age is only ' + age)
 
 // const else = 'ashraf'
 // console.logK(else)
-
-// var mathNumber = 34
-// var accountNumverDetailsId = 102
-// var account_number_details_id
+/*
+var mathNumber = 34
+var accountNumverDetailsId = 102
+var account_number_details_id
+*/

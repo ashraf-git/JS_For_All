@@ -24,5 +24,5 @@ console.log(Boolean(343))
 var x = true;
 console.log(x.toString())
 
-constructor
-Number Boolean String
+// constructor
+// Number Boolean String
