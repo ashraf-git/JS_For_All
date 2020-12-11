@@ -13,3 +13,8 @@ var str5 = n.toString()
 var str6 = n + ' '
 var str7 = String(n) //constructor
 console.log(n, str, str2, str4, str5, str6, str7)
+//escape notation
+var str10 = " This \t is a 'string'\n"
+var str11 = 'This is \\a \'string\'\n'
+var str12 = 'This \\is\t a "string"'
+console.log(str10, str11, str12)
