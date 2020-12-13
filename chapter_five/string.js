@@ -31,18 +31,36 @@
 // console.log(x<y)
 // console.log('001' == 1)
 
-var a = "Ali Ashraf"
-var b = "Khan"
-var c = a.concat(' ', b)
-console.log(c)
-var d = c.substr(11, 3)
-console.log(d)
+// var a = "Ali Ashraf"
+// var b = "Khan"
+// var c = a.concat(' ', b)
+// console.log(c)
+// var d = c.substr(11, 3)
+// console.log(d)
 
-console.log(c.charAt(4))
-console.log(c.startsWith('Ali'))
-console.log(c.endsWith(' Khan34'))
-console.log(c.toUpperCase())
-console.log(c.toLowerCase())
+// console.log(c.charAt(4))
+// console.log(c.startsWith('Ali'))
+// console.log(c.endsWith(' Khan34'))
+// console.log(c.toUpperCase())
+// console.log(c.toLowerCase())
 
-console.log('    Bangladesh   '.trim())
-console.log(c.split(' '))
+// console.log('    Bangladesh   '.trim())
+// console.log(c.split(' '))
+
+var str = 'Some '
+// var str2 = str.charAt(12)
+// console.log(str.charAt(12))
+// console.log(typeof str2)
+
+var length = 0
+while(true) {
+    if(str.charAt(length)=== ''){
+        break
+    }else{
+        length++
+    }
+}
+console.log(length)
+
+console.log(str.length)
+console.log('alkhjas ashdkf '.length)
