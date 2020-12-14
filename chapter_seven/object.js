@@ -46,3 +46,8 @@ point['y'] = 80//array notation
 var prop = 'z'
 point[prop] = 22;
 console.log(point)
+
+point.a = undefined
+console.log(point)
+delete point.a
+console.log(point)
