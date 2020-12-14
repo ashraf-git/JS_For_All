@@ -30,11 +30,19 @@ var point = {// Object literal
         y: 20,
         z: 30
 }
-console.log(point.x)
-console.log(point.y)
-console.log(point.x + point.z)
-console.log(point['x'])//array notation
-console.log(point['z'])
+// console.log(point.x)
+// console.log(point.y)
+// console.log(point.x + point.z)
+// console.log(point['x'])//array notation
+// console.log(point['z'])
 
-var show = "z"
-console.log(point[show])
+// var show = "z"
+// console.log(point[show])
+point.x =35;// dot notation
+point.a = 45;
+console.log(point)
+console.log(point.m)
+point['y'] = 80//array notation
+var prop = 'z'
+point[prop] = 22;
+console.log(point)
