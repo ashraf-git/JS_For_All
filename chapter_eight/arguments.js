@@ -12,9 +12,9 @@
 // sub(29, 3)
 // sub(74, 43)
 
-var arr1 = [1, 2, 3, 4, 5]
-var arr2 = [4, 5, 6, 4]
-var arr3 = [7, 8, 9, 10]
+// var arr1 = [1, 2, 3, 4, 5]
+// var arr2 = [4, 5, 6, 4]
+// var arr3 = [7, 8, 9, 10]
 
 // var sum = 0
 // for(var i = 0; i < arr1.length; i++){
@@ -34,13 +34,34 @@ var arr3 = [7, 8, 9, 10]
 // }
 // console.log(sum3)
 
-function sumOfArray(arr) {
+// function sumOfArray(arr) {
+//     var sum = 0;
+//     for(var i = 0; i < arr.length; i++){
+//         sum+=arr[i]
+//     }
+//     console.log(sum)
+// }
+// sumOfArray(arr1)
+// sumOfArray(arr2)
+// sumOfArray(arr3)
+
+function test(){
+     // console.log(arguments)
+    // console.log(typeof a)
+    for(var i = 0; i <arguments.length; i++){
+        console.log(arguments[i])
+    }
+   
+}
+// test()
+test(10, 20, 30)
+
+function addAll(){
     var sum = 0;
-    for(var i = 0; i < arr.length; i++){
-        sum+=arr[i]
+    for(var i=0; i<arguments.length; i++){
+        sum+=arguments[i]
     }
     console.log(sum)
 }
-sumOfArray(arr1)
-sumOfArray(arr2)
-sumOfArray(arr3)
+addAll(2, 3, 4)
+addAll(34, 64, 65)
