@@ -63,5 +63,8 @@ function addAll(){
     }
     console.log(sum)
 }
-addAll(2, 3, 4)
-addAll(34, 64, 65)
+// addAll(2, 3, 4)
+// addAll(34, 64, 65)
+var a = addAll(2, 3, 4)
+var b = addAll(34, 64, 65)
+console.log(a, b)
